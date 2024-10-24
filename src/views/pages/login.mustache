@@ -1,0 +1,39 @@
+{{>partials/header}}
+<body>
+<section>
+    <p>Faça o seu Login</p>
+    
+    <h2>Qual seu nome?</h2>
+<form  method="GET">
+    <input type="text" name="nome" placeholder="digite seu nome">
+   
+   <h2>Qual a sua idade?</h2>
+
+    <input type="text" name="idade" placeholder="digite seu idade">
+    
+
+    <h2>Qual o seu telefone?</h2>
+
+    <input type="text" name="telefone" placeholder="digite seu telefone">
+
+
+    <h2>Qual o seu endereço?</h2>
+
+    <input type="text" name="endereco" placeholder="digite  o seu endereço">
+    <input type="submit" value="Enviar">
+
+</form>
+
+
+
+    nome: {{nome}} <br>
+    idade: {{idade}} <br>
+    telefone: {{telefone}} <br>
+    endereço: {{endereco}} <br>
+    
+
+
+</section>
+
+</body>
+{{>partials/footer}}
